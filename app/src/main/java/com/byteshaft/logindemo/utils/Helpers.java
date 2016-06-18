@@ -25,6 +25,10 @@ public class Helpers {
 
     private static ProgressDialog progressDialog;
 
+    public static boolean isUserLoggedIn() {
+        SharedPreferences sharedPreferences = getPreferenceManager();
+        return sharedPreferences.getBoolean(AppGlobals.user_login_key, false);
+    }
 
     public static SharedPreferences getPreferenceManager() {
         return PreferenceManager.getDefaultSharedPreferences(AppGlobals.getContext());

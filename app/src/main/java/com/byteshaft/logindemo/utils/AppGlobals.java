@@ -6,6 +6,8 @@ import android.content.Context;
 
 public class AppGlobals extends Application {
 
+
+    public static final String user_login_key = "user_login";
     public static final String KEY_FULLNAME = "full_name";
     public static final String KEY_EMAIL = "email";
 
