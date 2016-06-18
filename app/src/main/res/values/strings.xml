@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Login Demo</string>
+    <string name="sign_up_text"><u>Sign UP</u></string>
+    <string name="forgot_password">Forgot password?</string>
+</resources>
